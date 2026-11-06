@@ -1,12 +1,14 @@
-name: Generate Snake Animation
+name: Profile Summary Cards
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
+    paths:
+      - ".github/workflows/summary-cards.yml"
 
 permissions:
   contents: write
@@ -15,16 +17,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 7
