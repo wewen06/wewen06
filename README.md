@@ -107,8 +107,8 @@ const wendy = {
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=wewen06&show_icons=true&theme=transparent&hide_border=true&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wewen06&layout=compact&theme=transparent&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117" />
+<img width="49%" src="https://raw.githubusercontent.com/wewen06/wewen06/main/profile-summary-card-output/github_dark/3-stats.svg" />
+<img width="49%" src="https://raw.githubusercontent.com/wewen06/wewen06/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
 
 <br/>
 
@@ -122,7 +122,8 @@ const wendy = {
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=wewen06&bg_color=0d1117&color=8b949e&line=58a6ff&point=ffffff&area=true&area_color=58a6ff&hide_border=true" width="100%" />
+<img width="49%" src="https://raw.githubusercontent.com/wewen06/wewen06/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+<img width="49%" src="https://raw.githubusercontent.com/wewen06/wewen06/main/profile-summary-card-output/github_dark/4-productive-time.svg" />
 
 <br/><br/>
 
